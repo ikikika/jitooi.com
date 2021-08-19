@@ -1,0 +1,38 @@
+{
+    "title": "Content Management System for Country Club Website",
+    "techUsed": [ "PHP (Codeigniter)", "MySQL", "HTML/CSS/JS" ],
+    "imageFolder": "country-club",
+    "mainImage": "intro2",
+    "imageCol": 6,
+    "description": "<p>I designed this mobile-responsive website for a country club. There is a content management system for this website so that the site owners can easily update the content on the website without needing to fiddle with the website coding.</p><p>Some of the customised features of this website is the class scheduler and the embedding of google virtual tour.</p>",
+    "descriptionCol": 6,
+    "date": "May 2016",
+    "data": [
+      {
+        "title": "",
+        "itemCol": 6,
+        "items": [
+          {
+            "description": "Hovering over the main menu reveals the sub-menu with an introductory image to the page that it is linked to.",
+            "type": "png",
+            "image": "menu"
+          },
+          {
+            "type": "png",
+            "image": "events",
+            "description": "Slider for banners of upcoming events."
+          },
+          {
+            "type": "png",
+            "image": "classes",
+            "description": "Schedule of classes available"
+          },
+          {
+            "type": "png",
+            "image": "venue",
+            "description": "SEmbedded google virtual tours."
+          }
+        ]
+      }
+    ]
+  }

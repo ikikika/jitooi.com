@@ -1,0 +1,58 @@
+{
+    "title": "Multistore Point-of-Sales & Inventory Management System for Retail Shops",
+    "techUsed": [ "PHP (Codeigniter)", "MySQL", "HTML/CSS/JS" ],
+    "imageFolder": "pos-invt-mgmt",
+    "mainImage": "intro",
+    "imageCol": 7,
+    "description": "This system is commissioned by a retail business to:<ul><li>process sales of products <strong>across different shops</strong>,</li><li>automate management of product inventory,</li><li>transfer of inventory across different shops,</li><li>interface with a touch-screen panel, barcode scanner, receipt printer and cash drawer,</li><li>generate various reports for accounting and business development purposes.</li><li>set permissions of staff for access to different shops.</li></ul>",
+    "descriptionCol": 5,
+    "date": "Mar 2017",
+    "data": [
+      {
+        "title": "",
+        "itemCol": 3,
+        "items": [
+          {
+            "type": "png",
+            "image": "createshops",
+            "description": "Create different shops"
+          },
+          {
+            "type": "gif",
+            "image": "createorder",
+            "description": "Interface with barcode scanner, number-pad for touch screen panel"
+          },
+          {
+            "type": "png",
+            "image": "inventory",
+            "description": "Inventory"
+          },
+          {
+            "type": "gif",
+            "image": "transfer",
+            "description": "Transfer of inventory across different shops"
+          },
+          {
+            "type": "png",
+            "image": "receive",
+            "description": "Receiving from suppliers"
+          },
+          {
+            "type": "png",
+            "image": "salesreport",
+            "description": "Sales reports with charts"
+          },
+          {
+            "type": "png",
+            "image": "permission",
+            "description": "Permission settings for employees"
+          },
+          {
+            "type": "png",
+            "image": "activitylog",
+            "description": "Activity log to track all user activity"
+          }
+        ]
+      }
+    ]
+  }

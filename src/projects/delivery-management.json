@@ -1,0 +1,168 @@
+{
+  "title": "Delivery Management System",
+  "techUsed": ["Swift (iOS app)", "React JS (Dashboard)", "PHP Laravel", "MySQL"],
+  "imageFolder": "deliver-mgmt",
+  "mainImage": "interfaces",
+  "description": "This system consist of 4 interfaces. <ul> <li>Admin</li> <li>User</li> <li>Driver</li> <li>Referrer</li> </ul> It is used to: <ul> <li>create orders by users,</li> <li> facilitate the scheduling and assigning of collection/delivery tasks to drivers, </li> <li> assist the recording and tracking of commissions awarded and paid to referrals. </li> </ul> The HTML mockup of the first draft of the interface designs can be found <a href='https://github.com/ikikika/html-delapp-mockup'>here</a>.",
+  "imageCol": 7,
+  "descriptionCol": 5,
+  "date": "Jan 2019",
+  "data": [
+    {
+      "title": "User Interface",
+      "itemCol": 2,
+      "items": [
+        {
+          "description": "User login.",
+          "type": "png",
+          "image": "user-login"
+        },
+        {
+          "type": "png",
+          "image": "user-dashboard",
+          "description":
+            "In the dashboard, user can see the status of their orders."
+        },
+        {
+          "type": "png",
+          "image": "user-createorder",
+          "description": "Users can create orders."
+        },
+        {
+          "type": "png",
+          "image": "user-vieworder",
+          "description": "Users can see their orders."
+        },
+        {
+          "type": "png",
+          "image": "user-timeline",
+          "description": "Users can see the timeline progress of their orders."
+        },
+        {
+          "type": "png",
+          "image": "user-timelineimg",
+          "description":
+            "Users can see images of items or documents uploaded by driver when task is completed."
+        }
+      ]
+    },
+    {
+      "title": "Admin Interface",
+      "itemCol": 3,
+      "items": [
+        { "type": "png", "image": "admin-login", "description": "Admin Login." },
+        {
+          "type": "png",
+          "image": "admin-dashboard",
+          "description":
+            "In the dashboard, orders that are in critical condition of failing will be displayed, along with the assigned driver's contact details."
+        },
+        {
+          "type": "png",
+          "image": "admin-createusers",
+          "description":
+            "Admins can create users, drivers, referrals and other admin accounts."
+        },
+        {
+          "type": "png",
+          "image": "admin-deactivateacct",
+          "description":
+            "Admins can activate/deactivate accounts, or set a date in the future where user accounts will be automatically deactivated."
+        },
+
+        {
+          "type": "png",
+          "image": "admin-orders",
+          "description": "Admins can view order details."
+        },
+        {
+          "type": "gif",
+          "image": "admin-adddropoff",
+          "description": "Admins can add additional dropoff points for orders."
+        },
+        {
+          "type": "png",
+          "image": "admin-schedule",
+          "description":
+            "Admins can schedule and assign tasks for drivers. Admins will not be allowed to change the tasks if the driver has started the task."
+        },
+        {
+          "type": "png",
+          "image": "admin-invoice",
+          "description": "Admins can generate invoices for orders."
+        },
+        {
+          "type": "png",
+          "image": "admin-incentives",
+          "description": "Admins can record incentives to be awarded to drivers."
+        },
+        {
+          "type": "png",
+          "image": "admin-commissions",
+          "description": "Admins can award commissions to referrals."
+        },
+        {
+          "type": "png",
+          "image": "admin-payment",
+          "description": "Admins can record payments made to referrals."
+        },
+        {
+          "type": "png",
+          "image": "admin-permissions",
+          "description":
+            "Superadmins can create admin accounts with limited permissions."
+        }
+      ]
+    },
+    {
+      "title": "Driver Interface",
+      "itemCol": 2,
+      "items": [
+        { "image": "driver-login", "description": "Driver login.", "type": "png" },
+        {
+          "image": "driver-dashboard",
+          "description": "Drivers can see assigned tasks.",
+          "type": "png"
+        },
+        {
+          "image": "driver-starttask",
+          "description": "Drivers can start the tasks.",
+          "type": "png"
+        },
+        {
+          "image": "driver-upload-img",
+          "description":
+            "Drivers can upload images of before completing the task.",
+          "type": "png"
+        },
+        {
+          "image": "driver-viewtasks",
+          "description": "Drivers can see the list of tasks they have completed.",
+          "type": "png"
+        },
+        {
+          "image": "driver-incentives",
+          "description":
+            "Drivers can see and filter incentives they were awarded.",
+          "type": "png"
+        }
+      ]
+    },
+    {
+      "title": "Referral Interface",
+      "itemCol": 2,
+      "items": [
+        {
+          "image": "referral-login",
+          "description": "Referral login.",
+          "type": "png"
+        },
+        {
+          "image": "referral-payments",
+          "description": "Referrals can see the payments made to them.",
+          "type": "png"
+        }
+      ]
+    }
+  ]
+}

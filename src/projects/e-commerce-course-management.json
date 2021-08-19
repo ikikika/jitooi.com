@@ -1,0 +1,130 @@
+{
+    "title": "E-Commerce and Course Management System",
+    "techUsed": [ "PHP (Codeigniter)", "MySQL", "HTML/CSS/JS" ],
+    "imageFolder": "ecomcourse",
+    "mainImage": "intro1",
+    "imageCol": 6,
+    "description": "<p>This is an ecommerce website that sell places in pre-scheduled offline courses.</p><p>The website and static pages are publicly accessible, but enrolling in courses requries the user to register for a member account and make payment (if required). Payments are processed by Stripe.</p><p>Admins can:<ul><li>list courses with prices, dates and places available for each date,</li><li>quick dashboard view of statistics, </li><li>design complex static pages without needing to know HTML using a built-in drag and drop page builder.</li></ul></p>",
+    "descriptionCol": 6,
+    "date": "Feb 2016",
+    "data": [
+      {
+        "title": "Website",
+        "itemCol": 3,
+        "items": [
+          {
+            "type": "png",
+            "image": "homepage",
+            "description": "Homepage"
+          },
+          {
+            "type": "png",
+            "image": "coursedetails",
+            "description": "Course Details"
+          },
+          {
+            "type": "png",
+            "image": "signup",
+            "description": "Member account sign up page"
+          },
+          {
+            "type": "png",
+            "image": "checkout",
+            "description": "Checkout page"
+          }
+        ]
+      },
+      {
+        "title": "Member Interface",
+        "itemCol": 3,
+        "items": [
+          {
+            "type": "png",
+            "image": "login",
+            "description": "Member log in"
+          },
+          {
+            "type": "png",
+            "image": "customerdashboard",
+            "description": "Upcoming enrolled courses"
+          },
+          {
+            "type": "png",
+            "image": "customerpayment",
+            "description": "Payment history"
+          },
+          {
+            "type": "png",
+            "image": "customercalendar",
+            "description": "Calendar"
+          }
+        ]
+      },
+      {
+        "title": "Admin Interface",
+        "itemCol": 3,
+        "items": [
+          {
+            "type": "png",
+            "image": "adminlogin",
+            "description": "Admin Login"
+          },
+          {
+            "type": "png",
+            "image": "dashboard",
+            "description": "Dashboard with course enrolments, members and sales statistics"
+          },
+          {
+            "type": "png",
+            "image": "admincourses",
+            "description": "List courses"
+          },
+          {
+            "type": "png",
+            "image": "enrolledmembers",
+            "description": "Members enrolled in courses"
+          },
+          {
+            "type": "gif",
+            "image": "pagebuilder",
+            "description": "Drag and drop page builder for static pages"
+          },
+          {
+            "type": "png",
+            "image": "admincalendar",
+            "description": "Calendar to schedule courses"
+          },
+          {
+            "type": "gif",
+            "image": "placesandduration",
+            "description": "Set number of places and duration of courses"
+          },
+          {
+            "type": "png",
+            "image": "classschedule",
+            "description": "Number of places and duration of courses and also be set here"
+          },
+          {
+            "type": "png",
+            "image": "gallery",
+            "description": "Image gallery"
+          },
+          {
+            "type": "png",
+            "image": "memberdetails",
+            "description": "View members' details"
+          },
+          {
+            "type": "png",
+            "image": "memberenrol",
+            "description": "View members' enrolled courses"
+          },
+          {
+            "type": "png",
+            "image": "invoices",
+            "description": "Invoices for payments confirmed"
+          }
+        ]
+      }
+    ]
+  }

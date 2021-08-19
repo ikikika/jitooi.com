@@ -1,0 +1,92 @@
+{
+    "title": "Appointment Management + POS System",
+    "techUsed": [ "PHP (Laravel)", "MySQL", "HTML/CSS/JS" ],
+    "imageFolder": "appt-mgmt-pos",
+    "mainImage": "pos-intro",
+    "imageCol": 7,
+    "description": "This system is commissioned by a beauty services establishment to<ul><li>facilitate employees' appointment scheduling,</li><li>automate management of product inventory,</li><li>tracking of pre-purchased customer credits which can be used to offset service costs,</li><li>process sales of products and services rendered and generate a receipt,</li><li>interface with a barcode scanner, receipt printer and cash drawer,</li><li>generate various reports for accounting and business development purposes.</li></ul>",
+    "descriptionCol": 5,
+    "date": "Aug 2021",
+    "data": [
+      {
+        "title": "Appointment Scheduling",
+        "itemCol": 3,
+        "items": [
+          {
+            "description":"Calendar showing all employees, their activities and available timeslots.",
+            "type": "png",
+            "image": "calendar"
+          },
+          {
+            "type": "gif",
+            "image": "calendar-actions",
+            "description":"Blocking timeslot for service booked by customer. Booked service can be extended, decreased, re-assigned to other employees."
+          },
+          {
+            "type": "gif",
+            "image": "calendar-roster",
+            "description":"Employee availability will appear on both leave schedule and appointment schedule."          },
+          {
+            "type": "png",
+            "image": "calendar-custhistory",
+            "description":"Customer records can be accessed from calendar directly."          
+            }
+         
+        ]
+      },
+      {
+        "title": "Product Inventory Management",
+        "itemCol": 3,
+        "items": [
+          {
+            "type": "png",
+            "image": "inventory",
+            "description": "Inventory"
+          },
+          {
+            "type": "png",
+            "image": "inventory-additem",
+            "description": "Add Item"
+          },
+          {
+            "type": "png",
+            "image": "receiving",
+            "description": "Receiving from Suppliers"
+          },
+          {
+            "type": "png",
+            "image": "movement",
+            "description": "Inventory Movement Record"
+              
+          }
+        ]
+      },
+      {
+        "title": "Point-of-Sales System",
+        "itemCol": 3,
+        "items": [
+          {
+            "image": "pos",
+            "description": "Add products and services to purchase list, assign assistant.",
+            "type": "png"
+          },
+          {
+            "image": "pos-discount",
+            "description": "Applying discounts to items on purchase list",
+            "type": "png"
+          },
+          {
+            "image": "pos-credit",
+            "description": "Using customers' pre-purchased credits to offset service costs",
+            "type": "gif"
+          },
+          {
+            "image": "pos-takings",
+            "description": "View all sales for selected period",
+            "type": "png"
+          }
+          
+        ]
+      }
+    ]
+  }
