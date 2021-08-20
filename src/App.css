@@ -31,11 +31,11 @@
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  min-width: 425px;
+  /* min-width: 425px; */
 }
 
 #mobile-profile-img{
-  max-width: 150px;
+  max-width: 120px;
   transform: rotate(20deg); 
   display: none;
 }
@@ -106,6 +106,11 @@
   border-radius: .3rem;
 }
 
+#center-button-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
 .project-title{
   font-size: 3.5rem;
   font-weight: 300;
@@ -123,28 +128,7 @@
   margin: 5px;
   height: 40px;
 }
-/* 
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.9);
-}
-.modal-content {
-  margin: auto;
-  display: block;
-  width: auto;
-  max-width: 90%;
-  max-height: 90%;
-  background-color: transparent;
-} */
+
 
 @media (max-width: 768px) {
   #sidebar-wrapper{
@@ -165,10 +149,34 @@
 }
 
 @media ( max-width: 576px ) {
+  .container-fluid{
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
   .jumbotron {
     padding: 1rem;
   }
+  #banner-title{
+    font-size: 25px;
+  }
   .project-title{
     font-size: 2.5rem;
+  }
+  
+  #center-button-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .center-button{
+    /* width: 45%; */
+    float: left;
+    font-size: 15px;
+  }
+
+  .center-button-full{
+    /* width: 90%; */
   }
 }

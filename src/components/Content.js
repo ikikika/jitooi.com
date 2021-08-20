@@ -249,20 +249,26 @@ const Content = () => {
                 </div>
 
                 <div style={{ width: "100%" }}>
-                  <Col style={{ display: "flex", justifyContent: "center" }}>
-                    <a href="mailto:contact@jitooi.com">
-                      <Button variant="primary" className="center-button">
+                  <Col id="center-button-wrapper">
+                    <a
+                      href="mailto:contact@jitooi.com"
+                      className="center-buttons center-button-full"
+                    >
+                      <Button variant="primary" className="center-button ">
                         contact@jitooi.com
                       </Button>
                     </a>
 
-                    <a href="https://github.com/ikikika">
+                    <a
+                      href="https://github.com/ikikika"
+                      className="center-buttons"
+                    >
                       <Button variant="primary" className="center-button">
                         My Github
                       </Button>
                     </a>
 
-                    <Link to="/contact">
+                    <Link to="/contact" className="center-buttons">
                       <Button variant="primary" className="center-button">
                         Contact Me
                       </Button>
