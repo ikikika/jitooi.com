@@ -1,0 +1,11 @@
+{
+    "title": "Hektor Exchange",
+    "techUsed": [ "Centrality", "ReactJS" ],
+    "imageFolder": "mesaw",
+    "mainImage": "intro",
+    "imageCol": 6,
+    "description": "<p>This is our team's submission for <a href='https://www.hackathon.io/mesaw'>Angelhack 2019</a>.</p><p>We developed a blockchain Micro-Entrepreneur Service and Work Portal (MeSaw) that serves as the financial inclusive initiative for micro-entrepreneurs. It represents our efforts to experiment with the <a href='https://centrality.ai/'>centrality blockchain</a>.</p><p>This project won us the <a href='https://medium.com/centrality/centrality-grows-developer-engagement-at-the-singapore-hackathon-497b9527c499'>AngelHack Centrality Challenge</a>.</p><p><a href='/images/blockchainbank/angelhack_centrality.png'>Certificate of achievement</a></p><p><a href='https://youtu.be/Otz1z95ctoU'>Link to our video presentation on youtube</a></p>",
+    "descriptionCol": 6,
+    "date": "Aug 2019",
+    "data": []
+  }

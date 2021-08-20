@@ -1,0 +1,11 @@
+{
+    "title": "Hektor Exchange",
+    "techUsed": [ "Hedera Hashgraph", "ReactJS" ],
+    "imageFolder": "hektor",
+    "mainImage": "intro",
+    "imageCol": 6,
+    "description": "<p>This is our team's submission for <a href='https://devpost.com/software/hektor-exchange'>Hedera21 hackathon</a>.</p><p>We developed an exchange that allows fractional ownership of future contracts without large deposits. We can also see who are the market participants. It represents our efforts to experiment with the <a href='https://hedera.com/'> Hedera Hashgraph blockchain</a>.</p><p><a href='https://youtu.be/V0qJaWMS_zk'>Link to our video presentation on youtube</a></p>",
+    "descriptionCol": 6,
+    "date": "Feb 2021",
+    "data": []
+  }

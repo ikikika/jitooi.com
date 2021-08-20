@@ -1,0 +1,63 @@
+{
+    "title": "Food Ordering + Delivery Tracking App",
+    "techUsed": [ "Python (Django)", "SQLite", "Swift (for iOS)", "HTML/CSS/JS" ],
+    "imageFolder": "foodtasker",
+    "mainImage": "intro",
+    "imageCol": 6,
+    "description": "<p>This system is built following an <a href='https://coderealprojects.com/'>online course made by Leo Trieu</a>. This is <a href='https://github.com/ikikika/foodtasker'>my github link</a> to the codebase of the version I built.</p><p>This system consist of:<ul><li>backend API built with Python Django,</li><li>protected routes/endpoints with JWT,</li><li>integration with Stripe payment gateway,</li><li>integration with google maps to show collection and delivery locations,</li><li>an iOS mobile app for customers built using Swift</li><li>an iOS mobile app for delivery driver built using Swift</li><li>a web-based admin interface built using HTML</li></ul></p>",
+    "descriptionCol": 6,
+    "date": "Jan 2018",
+    "data": [
+      {
+        "title": "Customer Interface",
+        "itemCol": 6,
+        "items": [
+          {
+            "type": "png",
+            "image": "customer-homescreen",
+            "description": "Customer homescreen"
+          },
+          {
+            "type": "png",
+            "image": "customer-restaurant-list",
+            "description": "View restaurant list"
+          },
+          {
+            "type": "png",
+            "image": "customer-filter-restaurant",
+            "description": "Customer can filter restaurant"
+          },
+          {
+            "type": "png",
+            "image": "viewfoodlist",
+            "description": "View food list"
+          },
+          {
+            "type": "png",
+            "image": "addtotray",
+            "description": "Add food to tray"
+          },
+          {
+            "type": "png",
+            "image": "delloc",
+            "description": "Add delivery location"
+          },
+          {
+            "type": "png",
+            "image": "payment",
+            "description": "Make payment"
+          },
+          {
+            "type": "png",
+            "image": "seeuserloc",
+            "description": "See customer's and restuarant's location"
+          },
+          {
+            "type": "png",
+            "image": "driverloc",
+            "description": "See driver's location"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,48 @@
+{
+    "title": "Cosmetic Products Website",
+    "techUsed": [ "PHP (Laravel)", "MySQL", "HTML/CSS/JS" ],
+    "imageFolder": "cosmetic-products-website",
+    "mainImage": "intro1",
+    "imageCol": 6,
+    "description": "<p>This website is deisgned to showcase the products of a cosmetics product business, as well as promote some instructions on using the products.</p><p>A database is used to store product and treatment information. When a product or treatment page link is clicked, the information is queried from a database, which is then rendered as a webpage using a standard template.</p>",
+    "descriptionCol": 6,
+    "date": "Jul 2016",
+    "data": [
+      {
+        "title": "",
+        "itemCol": 3,
+        "items": [
+          {
+            "type": "png",
+            "image": "homepage",
+            "description": "Homepage"
+          },
+          {
+            "type": "png",
+            "image": "cat",
+            "description": "Product main category page"
+          },
+          {
+            "type": "png",
+            "image": "subcat",
+            "description": "Product category page"
+          },
+          {
+            "type": "png",
+            "image": "product",
+            "description": "Product detail page"
+          },
+          {
+            "type": "png",
+            "image": "treatmentcat",
+            "description": "Treatment category page"
+          },
+          {
+            "type": "png",
+            "image": "treatment",
+            "description": "Treatment detail page"
+          }
+        ]
+      }
+    ]
+  }

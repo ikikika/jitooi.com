@@ -6,7 +6,7 @@
     "imageCol": 6,
     "description": "<p>This is an ecommerce website that sell places in pre-scheduled offline courses.</p><p>The website and static pages are publicly accessible, but enrolling in courses requries the user to register for a member account and make payment (if required). Payments are processed by Stripe.</p><p>Admins can:<ul><li>list courses with prices, dates and places available for each date,</li><li>quick dashboard view of statistics, </li><li>design complex static pages without needing to know HTML using a built-in drag and drop page builder.</li></ul></p>",
     "descriptionCol": 6,
-    "date": "Feb 2016",
+    "date": "Feb 2017",
     "data": [
       {
         "title": "Website",

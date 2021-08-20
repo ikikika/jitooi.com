@@ -1,0 +1,31 @@
+{
+    "title": "Social Portal for Developers",
+    "techUsed": [ "MongoDB", "ExpressJS", "ReactJS", "NodeJS" ],
+    "imageFolder": "devconnecter",
+    "mainImage": "intro",
+    "imageCol": 6,
+    "description": "<p>This website is built following an <a href='https://www.udemy.com/mern-stack-front-to-back/'>online course made by Brad Traversy</a>. This is <a href='https://github.com/ikikika/mern/tree/master/devconnector'>my github link</a> to the codebase of the version I built.</p><p>Concepts used to build this site:<ul><li>Building backend API with Node.js & Express</li><li>Protecting routes/endpoints with JWT</li><li>Extensive API testing with Postman</li><li>Integrating React with our backend in an elegant way</li><li>Building our frontend to work with the API</li><li>Using Redux for app state management</li><li>Create reducers and actions for resources</li><li>Create container components that integrate with Redux</li><li>Testing with the Redux Chrome extension</li></ul></p>",
+    "descriptionCol": 6,
+    "date": "Oct 2018",
+    "data": [
+      {
+        "title": "",
+        "itemCol": 3,
+        "items": [
+          { "type": "png", "image": "intro", "description": "</div>"},
+          { "type": "png", "image": "homepage", "description": "Homepage"},
+          { "type": "png", "image": "view-dev-profiles", "description": "View all developers' profiles"},
+          { "type": "png", "image": "profile", "description": "View developer's detailed profile"},
+          { "type": "png", "image": "login", "description": "Login"},
+          { "type": "png", "image": "signup", "description": "Sign up"},
+          { "type": "png", "image": "signup-error-checking", "description": "Sign up error checking"},
+          { "type": "png", "image": "editprofile", "description": "View education and experience in dashboard"},
+          { "type": "png", "image": "editedandexp", "description": "Edit education and experience"},
+          { "type": "png", "image": "editbasicprofile", "description": "Edit basic profile"},
+          { "type": "png", "image": "sociallinks", "description": "Social links"},
+          { "type": "png", "image": "postfeed", "description": "Post feed and likes"},
+          { "type": "png", "image": "comments", "description": "Comments"}
+        ]
+      }
+    ]
+  }

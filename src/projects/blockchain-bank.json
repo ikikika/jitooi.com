@@ -1,0 +1,11 @@
+{
+    "title": "Blockchain Bank",
+    "techUsed": [ "Solidity", "ReactJS", "web3.js" ],
+    "imageFolder": "blockchainbank",
+    "mainImage": "intro",
+    "imageCol": 6,
+    "description": "<p>This system is built following an <a href='https://youtu.be/xWFba_9QYmc'>online course made by Dapp University</a>. This is my <a href='https://github.com/ikikika/blockchain/tree/dbank'>github link</a> to the codebase of the version I built.</p><p>Concepts used to build this system:</p><ul><li>Code deposit, withdraw, borrow, payoff functions in bank smart contract</li><li>Deploy token and bank smart contract to local ganache blockchain </li><li>Frontend coded in ReactJS</li><li>Frontend communicate with smart contracts on the blockchain using web3.js</li></ul><p><a href='https://youtu.be/VlKcOWnjJ98'>Link to youtube video</a></p>",
+    "descriptionCol": 6,
+    "date": "Aug 2021",
+    "data": []
+  }
