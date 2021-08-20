@@ -9,7 +9,7 @@ import {
   OverlayTrigger,
   Tooltip,
 } from "react-bootstrap";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
 import { SelectionContext } from "../context/SelectionContext";
@@ -250,15 +250,23 @@ const Content = () => {
 
                 <div style={{ width: "100%" }}>
                   <Col style={{ display: "flex", justifyContent: "center" }}>
-                    <Button variant="primary" className="center-button">
-                      contact@jitooi.com
-                    </Button>
-                    <Button variant="primary" className="center-button">
-                      My Github
-                    </Button>
-                    <Button variant="primary" className="center-button">
-                      Contact Me
-                    </Button>
+                    <a href="mailto:contact@jitooi.com">
+                      <Button variant="primary" className="center-button">
+                        contact@jitooi.com
+                      </Button>
+                    </a>
+
+                    <a href="https://github.com/ikikika">
+                      <Button variant="primary" className="center-button">
+                        My Github
+                      </Button>
+                    </a>
+
+                    <Link to="/contact">
+                      <Button variant="primary" className="center-button">
+                        Contact Me
+                      </Button>
+                    </Link>
                   </Col>
                 </div>
               </div>
