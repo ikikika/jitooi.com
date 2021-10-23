@@ -15,6 +15,13 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/contact" component={ContactPage} />
+          <Route
+            exact
+            path="/z"
+            component={() => {
+              window.location.href = "https://zonapos.lucidcorner.com/login";
+            }}
+          />
           <Route exact path="/:project" component={ProjectPage} />
         </Switch>
       </SelectionContext.Provider>
