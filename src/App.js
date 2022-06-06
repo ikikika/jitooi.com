@@ -5,6 +5,7 @@ import { SelectionContext } from "./context/SelectionContext";
 import Home from "./pages/home";
 import ContactPage from "./pages/ContactPage";
 import ProjectPage from "./pages/ProjectPage";
+import SmartUI from "./pages/SmartUI";
 
 function App() {
   const [selectedSkills, setSelectedSkills] = useState([]);
@@ -22,6 +23,7 @@ function App() {
               window.location.href = "https://zonapos.lucidcorner.com/login";
             }}
           />
+          <Route exact path="/smart-ui" component={SmartUI} />
           <Route exact path="/:project" component={ProjectPage} />
         </Switch>
       </SelectionContext.Provider>
