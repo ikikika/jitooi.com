@@ -28,7 +28,7 @@ const ContactPage = () => {
 
             <div className="project-title">Contact Me</div>
             <p>If you'll like to stay in touch, drop me a message.</p>
-            <p>If this form doesn't work, email me contact@jitooi.com</p>
+            <p>If this form doesn't work, email me jitooi@outlook.com</p>
           </Row>
         </Container>
       </div>
