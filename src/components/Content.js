@@ -205,7 +205,7 @@ const Content = () => {
                       className="center-buttons center-button-full"
                     >
                       <Button variant="primary" className="center-button ">
-                        contact@jitooi.com
+                        jitooi@outlook.com
                       </Button>
                     </a>
 
